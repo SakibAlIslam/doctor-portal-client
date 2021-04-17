@@ -4,12 +4,9 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './AppointmentHeader.css';
 
-const AppointmentHeader = () => {
+const AppointmentHeader = ({handleDateChange}) => {
 
-    const handleDateChange = (date) => {
-        console.log(date)
-    }
-    
+
     return (
         <main style={{ height: '600px' }} className="row d-flex align-items-center w-100 appointment-header-container">
             <div className="col-md-5 offset-md-1">
