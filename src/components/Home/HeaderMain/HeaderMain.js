@@ -11,7 +11,6 @@ const HeaderMain = () => {
                 <p className="text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt ad dolore consequuntur ea adipisci corporis?</p>
 
                 <button style={{backgroundImage: 'linear-gradient(to right, #18D2B1 , #0FCFEB)', fontWeight:'600',cursor: 'pointer'}} className="btn btn-default text-white">Get Appointment</button>
-
             </div>
 
             <div className="col-md-6">

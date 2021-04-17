@@ -7,8 +7,11 @@ const BlogDetail = ({blogInfo}) => {
             <img style={{height: '500px'}} src={blogInfo.img} alt="img"/>
         </div>
         <div className='col-md-6 '>
-             <h2 className='mt-5 mb-5' style={{color:'#3a4256'}}>{blogInfo.title}</h2>
-            <p className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab debitis reiciendis velit, illo at fugit officia eaque quia consequuntur quasi ducimus facilis labore earum unde incidunt nesciunt? Aliquam saepe, quos reiciendis deleniti velit quibusdam pariatur corporis ipsa! Architecto quia consequatur reprehenderit ad, atque natus eveniet tenetur voluptatum fuga modi? Nam quis voluptate doloribus consectetur eligendi necessitatibus voluptatem ex et quibusdam asperiores, repellat, minus dolores beatae dolorum, temporibus amet rerum tenetur omnis eveniet itaque delectus? Obcaecati ex rerum nam porro. </p>
+             <h2 className='mb-5' style={{color:'#3a4256'}}>{blogInfo.title}</h2>
+            <p className='text-secondary mb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe aliquam doloribus sunt corporis dolores voluptate quasi explicabo quo nostrum officiis eveniet beatae natus aut eum, necessitatibus dolor excepturi atque quae et ea fugiat quibusdam at deleniti ab. Corporis accusamus vel nulla, odio cum dolorum facere iure, officia beatae temporibus ratione cumque molestias ut iste itaque laudantium modi voluptatem neque incidunt debitis recusandae dolorem id ab fugiat? Dolorum, molestiae. Nihil illum, reiciendis possimus quaerat quas, harum neque quibusdam delectus facilis autem eaque itaque, ab repudiandae suscipit similique sunt. Beatae aperiam officia repellat. Odio nulla aliquam at repudiandae tempore alias, porro cupiditate. </p>
+            <button className='btn btn-default mt-3 text-white' style={{
+                backgroundImage: 'linear-gradient(to right, #18D2B1 , #0FCFEB)', fontWeight:'600'
+            }}>Learn More</button>
         </div>
         </div>
         

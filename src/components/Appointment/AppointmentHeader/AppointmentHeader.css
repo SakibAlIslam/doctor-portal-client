@@ -1,0 +1,17 @@
+.calender{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px lightgrey;
+    padding: 30px;
+    width: 70%;
+    font-weight: 700;
+    font-size: large;
+}
+.appointment-header-container{
+    height:700px;
+    background-image: url('../../../images/chair-BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -5;
+    margin-bottom: 300px;
+}
