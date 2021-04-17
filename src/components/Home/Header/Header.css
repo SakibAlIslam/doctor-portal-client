@@ -5,6 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
+    margin-bottom: 200px;
 }
 .header-container::after{
     height:700px;
